@@ -17,7 +17,17 @@
     "build": "rm -rf build && tsc"
   },
   "keywords": [
-    "extract-metadata"
+    "extract-metadata",
+    "next js",
+    "node js",
+    "metadata",
+    "React js",
+    "vue js",
+    "Typescript",
+    "express js",
+    "Adonis js",
+    "Svelte",
+    "Nuxt js"
   ],
   "author": "Tushar Vashishth",
   "license": "ISC",
