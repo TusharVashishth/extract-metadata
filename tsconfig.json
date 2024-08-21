@@ -1,0 +1,30 @@
+// {
+//     "exclude": ["node_modules" ,"build"],
+//     "compilerOptions": {
+  
+//      "module": "ESNext",
+//      "target": "ESNext",
+//      "moduleDetection": "force",
+//      "outDir": "build",
+//      "skipLibCheck": true,
+//      "strict": true,
+//      "rootDirs": ["src"],
+//     },
+
+//   }
+
+{
+    "compilerOptions": {
+      "rootDirs": ["src"],
+      "outDir": "build",
+      "lib": ["es2020"],
+      "target": "es2020",
+      "declaration": true,
+      "module": "Node16",
+      "moduleResolution": "Node16",
+      "esModuleInterop": true,
+      "types": ["node"]
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+  }

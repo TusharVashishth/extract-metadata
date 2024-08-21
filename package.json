@@ -1,0 +1,32 @@
+{
+  "name": "extract-metadata",
+  "version": "1.0.0",
+  "description": "Using this package you can extract any website metadata by passing their url",
+  "main": "build/index.js",
+  "type": "module",
+  "types": "build/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TusharVashishth/extract-metadata.git"
+  },
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rm -rf build && tsc"
+  },
+  "keywords": [
+    "extract-metadata"
+  ],
+  "author": "Tushar Vashishth",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.4",
+    "jsdom": "^24.1.1"
+  }
+}
