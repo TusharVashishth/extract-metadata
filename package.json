@@ -1,6 +1,6 @@
 {
   "name": "extract-metadata",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Using this package you can extract any website metadata by passing their url",
   "main": "build/index.js",
   "type": "module",
