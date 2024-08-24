@@ -1,18 +1,3 @@
-// {
-//     "exclude": ["node_modules" ,"build"],
-//     "compilerOptions": {
-  
-//      "module": "ESNext",
-//      "target": "ESNext",
-//      "moduleDetection": "force",
-//      "outDir": "build",
-//      "skipLibCheck": true,
-//      "strict": true,
-//      "rootDirs": ["src"],
-//     },
-
-//   }
-
 {
     "compilerOptions": {
       "rootDirs": ["src"],
